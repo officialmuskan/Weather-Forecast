@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav">
+                <h1>Weather Forecast</h1>
+                <button><i class="fa-solid fa-search"></i></button>
+            </div>
+        </nav>
+    </header>
+
+
+    <div id="card">
+        <div class="search">
+            <input type="text" placeholder="Enter the city name" />
+            <button><i class="fa-solid fa-search"></i></button>
+        </div>
+        <div class="weather">
+            <div>
+                <img src="images/clear.png" alt="" />
+            </div>
+            <div>
+                <h1 class="temp">29°C</h1>
+                <h2 class="city">9-8-2023</h2>
+            </div>
+        </div>
+        <div class="Lines">
+            <p class="quote">"It's a beautiful day to soak up some Vitamin D."</p>
+        </div>
+        <div class="details">
+            <div class="left">
+                <div>
+                    <img src="images/humidity.png" alt="" />
+                </div>
+                <div>
+                    <h3 class="humidity">53%</h3>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="right">
+                <div>
+                    <img src="images/wind.png" alt="" />
+                </div>
+                <div>
+                    <h3 class="wind">53km/hr</h3>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
